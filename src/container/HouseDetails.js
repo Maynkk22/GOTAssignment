@@ -42,9 +42,9 @@ function HouseDetails() {
               <strong>Region :</strong> {region ? region : "No Information"}
             </p>
             <br />
-            <p>Coat of Arms : {coatOfArms ? coatOfArms : "No Information"}</p>
+            <p><strong>Coat of Arms : </strong> {coatOfArms ? coatOfArms : "No Information"}</p>
             <br />
-            <p>Words : {words ? words : "No Information"}</p>
+            <p><strong>Words : </strong> {words ? words : "No Information"}</p>
           </div>
         </div>
       )}
